@@ -50,8 +50,10 @@ Environment Variables:
 Create a .env file in the server directory with:
 MONGO_URI, JWT_SECRET, PORT
 ```
+---
 
-🤝 Contributing
+
+🤝 # Contributing
 This is an Open Source project. We welcome contributions to help make our cities cleaner!
 
 Fork the Project
