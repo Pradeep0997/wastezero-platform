@@ -1,10 +1,19 @@
+// import axios from "axios";
+
+// // 1. Create Axios Instance
+// // Check if your backend is running on port 4000 or 5000. 
+// // Your error log said 4000, so we use that here.
+// const API = axios.create({
+//   baseURL: "http://localhost:4000/api",
+//   withCredentials: true,
+// });
 import axios from "axios";
 
 // 1. Create Axios Instance
-// Check if your backend is running on port 4000 or 5000. 
-// Your error log said 4000, so we use that here.
+// In production, this will use the VITE_API_URL set in Vercel.
+// In development, it will default to your localhost.
 const API = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:4000/api",
   withCredentials: true,
 });
 
