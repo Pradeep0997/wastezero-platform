@@ -49,6 +49,7 @@ cd client && npm install
 Environment Variables:
 Create a .env file in the server directory with:
 MONGO_URI, JWT_SECRET, PORT
+```
 
 🤝 Contributing
 This is an Open Source project. We welcome contributions to help make our cities cleaner!
@@ -60,5 +61,8 @@ Create your Feature Branch
 Commit your Changes
 
 Open a Pull Request
+
+
+
 
 Built for FOSS Hack 2026 by Pradeep Reddy Settipalle
