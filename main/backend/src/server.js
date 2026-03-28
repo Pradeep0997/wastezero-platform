@@ -25,7 +25,7 @@ const { app, server } = require("../socket/socket.js");
 // --- Middleware setup from both branches ---
 app.use(cors({
   // Use the more specific CORS config from message-branch
-  origin: ['http://localhost:5173', 'http://localhost:5174'], 
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://wastezero-platform.vercel.app/' ], 
   credentials: true 
 }));
 // Increase payload size limit for image uploads
